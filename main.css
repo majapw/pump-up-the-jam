@@ -1,0 +1,82 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1529663297269-6d349ec39b57?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e7057a8660a6285b2cf3b414f60d95f3&auto=format&fit=crop&w=2100&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Raleway", serif;
+}
+
+.content {
+  padding: 48px calc((100% - 960px) / 2);
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.title {
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 24px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  width: 360px;
+}
+
+section {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background: rgba(1, 1, 1, 0.5);
+  padding: 24px;
+  width: 360px;
+  color: #fff;
+}
+
+.quote {
+  font-size: 24px;
+}
+
+.author {
+  padding-top: 12px;
+  font-style: italic;
+}
+
+.song-title {
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+}
+
+.gimme-more {
+  display: block;
+  font-family: 'Dosis', sans-serif;;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 12px;
+  background: rgba(1, 1, 1, 0.3);
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.gimme-more:hover {
+  background: rgba(1, 1, 1, 0.5);
+  color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.what-is-this {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
